@@ -1,0 +1,148 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(43, 41, 41);
+}
+
+.container{
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(0deg,rgb(40, 224, 184),rgb(180, 180, 219));
+    border-radius: 15px;
+    padding: 30px 50px 30px 50px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.search input{
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(241, 241, 241);
+}
+
+.search img{
+    width: 43px;
+    background-color: rgb(241, 241, 241);
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.main img{
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.main h1{
+    color: rgb(241, 241, 241);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.main h2{
+    color: rgb(241, 241, 241);
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.other-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.humid{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.humid img{
+    width: 30px;
+    height: 30px;
+}
+
+.hum-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 5px;
+}
+
+.hum-text h1{
+    color: rgb(241, 241, 241);
+    font-size: 29px;
+    font-weight: 300;
+}
+
+.hum-text span{
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+}
+
+.wind-speed{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.wind-speed img{
+    width: 30px;
+    height: 30px;
+}
+
+.speed-txt{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.speed-txt h1{
+    color: rgb(241, 241, 241);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.speed-txt span{
+    color: rgb(241, 241, 241);
+}
+
+.weather{
+    display: none;
+}
